@@ -35,7 +35,8 @@ class CMD
 @"1.类方法成员的重载
 2.LINQ操作
 3.委托Delegate
-4.特性Attribute";
+4.特性Attribute
+5.条件语句";
     Console.WriteLine(menu);
   }
 }
@@ -49,13 +50,16 @@ class Options
         OverloadExample.Example.Run();
         break;
       case "2":
-        LINQExample.Main.Run();
+        LINQExample.Example.Run();
         break;
       case "3":
         DelegateExample.Example.Run();
         break;
       case "4":
         AttributeExample.Example.Run();
+        break;
+      case "5":
+        ConditionExample.Example.Run();
         break;
       default:
         Console.WriteLine("请输出有效的选项!");
