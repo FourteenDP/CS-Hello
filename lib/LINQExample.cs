@@ -1,4 +1,4 @@
-namespace App.MyLINQ
+namespace LINQExample
 {
   enum Sex
   {

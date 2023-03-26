@@ -1,4 +1,4 @@
-namespace App.MyOverload
+namespace OverloadExample
 {
   // internal : 内部的, 只能在当前程序集中访问
   public class Example

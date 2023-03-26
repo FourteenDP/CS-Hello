@@ -56,7 +56,7 @@ class Options
         App.MyDelegate.Example.Run();
         break;
       case "4":
-        App.MyAttribute.Example.Run();
+        App.AttributeExample.Example.Run();
         break;
       default:
         Console.WriteLine("请输出有效的选项!");

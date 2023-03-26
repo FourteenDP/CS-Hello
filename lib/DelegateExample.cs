@@ -1,4 +1,4 @@
-namespace App.MyDelegate
+namespace DelegateExample
 {
   class Test
   {

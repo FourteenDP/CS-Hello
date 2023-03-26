@@ -1,4 +1,4 @@
-namespace App.MyAttribute
+namespace AttributeExample
 {
   // 定义 AuthorAttribute 类作为一个特性，可以应用于类、方法等元素上
   [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
