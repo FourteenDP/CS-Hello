@@ -34,6 +34,41 @@ namespace ConditionExample
     }
   }
 
+  internal class IfExample
+  {
+    internal static void Run()
+    {
+      Console.WriteLine(@"什么是if ... else ...语句?
+  if语句是一种单分支选择结构，它的语法格式如下：
+  if(表达式)
+  {
+    语句1;
+  }
+  else
+  {
+    语句2;
+  }");
+      Console.WriteLine("请输入一个数字:");
+      string? num = Console.ReadLine();
+      if (num == "" || num == null)
+      {
+        Console.WriteLine("输入不得为空!");
+        Run();
+      }
+      else
+      {
+        int n = int.Parse(num);
+        if (n == 1)
+        {
+          Console.WriteLine("你输入的是1");
+        }
+        else
+        {
+          Console.WriteLine("你输入的不是1");
+        }
+      }
+    }
+  }
   internal class SwitchExample
   {
     internal static void Run()
@@ -78,8 +113,6 @@ namespace ConditionExample
       }
     }
 
-    internal class IfExample
-    {
-    }
+
   }
 }
