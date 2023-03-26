@@ -1,11 +1,11 @@
-namespace App
+namespace App.MyOverload
 {
   // internal : 内部的, 只能在当前程序集中访问
-  internal class Overload
+  public class Example
   {
     // static : 静态的, 可以直接通过类名访问
     // void : 空的, 没有返回值
-    internal static void Run()
+    public static void Run()
     {
       // 多行字符串
       Console.WriteLine(@"什么是方法重载?

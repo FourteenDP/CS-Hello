@@ -1,5 +1,5 @@
+using App.MyLINQ;
 namespace App;
-
 class CMD
 {
   // public	访问不受限制。
@@ -32,8 +32,11 @@ class CMD
   private static void PrintMenu()
   {
     // 多行字符串
-    string menu = @"1.类方法成员的重载
-2. LINQ";
+    string menu =
+@"1.类方法成员的重载
+2.LINQ操作
+3.委托Delegate
+4.特性Attribute";
     Console.WriteLine(menu);
   }
 }
@@ -44,10 +47,16 @@ class Options
     switch (cmd)
     {
       case "1":
-        Overload.Run();
+        App.MyOverload.Example.Run();
         break;
       case "2":
-        LINQ.Run();
+        App.MyLINQ.Example.Run();
+        break;
+      case "3":
+        App.MyDelegate.Example.Run();
+        break;
+      case "4":
+        App.MyAttribute.Example.Run();
         break;
       default:
         Console.WriteLine("请输出有效的选项!");
