@@ -1,4 +1,3 @@
-using App.MyLINQ;
 namespace App;
 class CMD
 {
@@ -47,16 +46,16 @@ class Options
     switch (cmd)
     {
       case "1":
-        App.MyOverload.Example.Run();
+        OverloadExample.Example.Run();
         break;
       case "2":
-        App.MyLINQ.Example.Run();
+        LINQExample.Main.Run();
         break;
       case "3":
-        App.MyDelegate.Example.Run();
+        DelegateExample.Example.Run();
         break;
       case "4":
-        App.AttributeExample.Example.Run();
+        AttributeExample.Example.Run();
         break;
       default:
         Console.WriteLine("请输出有效的选项!");

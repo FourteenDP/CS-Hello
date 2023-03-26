@@ -11,7 +11,7 @@ namespace LINQExample
     public Sex gender; // 性别
     public string address; // 地址
   }
-  internal class Example
+  internal class Main
   {
     private static List<UserInfo> userList = new List<UserInfo>(){
         new UserInfo() { name = "张三", age = 20, gender = Sex.Men, address = "北京市海淀区中关村" },
