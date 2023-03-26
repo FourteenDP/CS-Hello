@@ -53,6 +53,29 @@ namespace ConditionExample
       语句n;
       break;
   }");
+      Console.WriteLine("请输入一个数字:");
+      string? num = Console.ReadLine();
+      if (num == "" || num == null)
+      {
+        Console.WriteLine("输入不得为空!");
+        Run();
+      }
+      else
+      {
+        int n = int.Parse(num);
+        switch (n)
+        {
+          case 1:
+            Console.WriteLine("你输入的是1");
+            break;
+          case 2:
+            Console.WriteLine("你输入的是2");
+            break;
+          default:
+            Console.WriteLine("你输入的不是1或2");
+            break;
+        }
+      }
     }
 
     internal class IfExample
