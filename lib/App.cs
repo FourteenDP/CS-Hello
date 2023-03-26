@@ -36,7 +36,8 @@ class CMD
 2.LINQ操作
 3.委托Delegate
 4.特性Attribute
-5.条件语句";
+5.条件语句
+6.运算符和表达式";
     Console.WriteLine(menu);
   }
 }
@@ -60,6 +61,9 @@ class Options
         break;
       case "5":
         ConditionExample.Example.Run();
+        break;
+      case "6":
+        OperatorExample.Example.Run();
         break;
       default:
         Console.WriteLine("请输出有效的选项!");

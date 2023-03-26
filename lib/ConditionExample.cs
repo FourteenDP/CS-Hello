@@ -8,6 +8,7 @@ namespace ConditionExample
   条件语句是指在程序中根据条件的不同执行不同的操作。");
       Console.WriteLine("1. if 语句");
       Console.WriteLine("2. switch 语句");
+      Console.WriteLine("3. 条件运算符");
       Console.WriteLine("请输入选项:");
       string? cmd = Console.ReadLine();
       if (cmd == "" || cmd == null)
@@ -33,6 +34,8 @@ namespace ConditionExample
       }
     }
   }
+
+
 
   internal class IfExample
   {
@@ -112,7 +115,5 @@ namespace ConditionExample
         }
       }
     }
-
-
   }
 }
