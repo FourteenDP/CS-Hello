@@ -62,9 +62,6 @@ class Options
       case "5":
         ConditionExample.Example.Run();
         break;
-      case "6":
-        OperatorExample.Example.Run();
-        break;
       default:
         Console.WriteLine("请输出有效的选项!");
         CMD.Run();
