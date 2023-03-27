@@ -37,7 +37,7 @@ class CMD
 3.委托Delegate
 4.特性Attribute
 5.条件语句
-6.运算符和表达式";
+";
     Console.WriteLine(menu);
   }
 }
